@@ -71,47 +71,81 @@ nav {
 .menu-wrapper {
     width: 100%;
     margin: 0 auto;
-/*    border: 2px solid black;*/
+/*    border: 5px solid black;*/
+    background: #006600;
 }
-.home-nav {
-    text-align: center;
+.home-wrapper {
+    width: 960px;
+    margin: 0 auto;
+/*    border: 2px solid red;*/
+
+}
+.menu-wrapper .home-wrapper .home-nav {
+    text-align: left;
     text-decoration: none;
     margin-left: 0;
     background-color: #006600;
 /*    border: 2px solid black;*/
 }
-.home-nav li {
+.menu-wrapper .home-wrapper .home-nav li {
     display: inline-block;
+    font-size: 12pt;
+    padding: 15px 3px;
 }
-.home-nav ul {
-    padding: 20px;
-}
-.home-nav li a {
-    color: #000000;
+.menu-wrapper .home-wrapper .home-nav li a {
+    color: #fff;
     text-decoration: none;
 }
 .home-nav .search-box {
-    width: 100px;
-    padding: 5px;
-    border-right: ;r: 0;
+    width: 60px;
+    text-align: left;
+    float: right;
+    padding: 17px;
+    background-color:#003300;
+    border: none;
+
+
+
 }
 /*gallery*/
+.gallery {
+    width: 100%;
+    margin: 0 auto;
+/*    border: 2px solid red;*/
+}
+/*image at left*/
+.gallery-left {
+    width: 960px;
+    margin: 0 auto;
+    border: 2px solid red;
+
+}
+.gallery-left .img-left {
+    width: 960px;
+    height: auto;
+}
+
+
+/*image AT CENTER*/
 .gallery-wrapper {
     width: 960px;
     margin: 0 auto;
 /*    border: 2px solid black;*/
 }
-..gallery-wrapper img {
+..gallery-wrapper .img-center {
     width: 960px;
     height: auto;
 }
+
+
+
 
 /*news-events-announcements*/
 .news-wrapper {
     width: 960px;
     margin: 0 auto;
-/*    border: 2px solid black;*/
-    height: 500px;
+    border: 2px solid black;
+    height: 510px;
     margin-top: 20px;
 }
 .news-wrapper ul li {
@@ -126,24 +160,39 @@ nav {
     position: relative;
     width: 30%;
     border-top: 5px solid #006600;
-    height: 500px;
     margin-right:5%;
     background-color:#ffffff;
 }
 .news-wrapper .news-box ul .li-header {
     color: #006600;
     font-size: 16pt;
-    padding: 20px;
-}
-.news-wrapper .news-box ul .li-content {
-    font-size: 12pt;
-    padding: 20px;
+    padding: 15px;
+    border-bottom: 1px solid grey;
 
 }
-
-
+.news-wrapper .news-box ul li {
+    font-size: 11pt;
+    padding: 20px;
+    border-bottom:1px solid grey;
+}
+.news-wrapper .news-box ul li p {
+    margin-bottom: 5px;
+}
+.news-wrapper .news-box li a {
+    border: none;
+    font-size: 11pt;
+    text-decoration: none;
+    color: black;
+}
+.news-wrapper .news-box .button {
+    background: green;
+}
+.news-wrapper .news-box .button a {
+    text-align: center;
+    position: content: '';
+}
 /*announcement box*/
-.news-wrapper .announce-box {
+/*.news-wrapper .announce-box {
     position: relative;
     float: left;
     width: 30%;
@@ -156,10 +205,16 @@ nav {
     color: #006600;
     font-size: 16pt;
     padding: 20px;
+    border-bottom: 1px solid grey;
 }
-
+.news-wrapper .announce-box ul .li-content {
+    font-size: 14px;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+}
+*/
 /*achiever box*/
-.news-wrapper .achiever-box {
+/*.news-wrapper .achiever-box {
     position: relative;
     float: right;
     width: 30%;
@@ -173,3 +228,11 @@ nav {
     padding: 20px;
 }
 
+.news-wrapper .achiever-box ul li img {
+    height: 400px;
+    width: 100%;
+}
+.news-wrapper .announce-box ul .li-content {
+    font-size: 14px;
+    padding: 20px;
+}*/
